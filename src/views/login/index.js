@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -70,10 +70,11 @@ const Login = (props) => {
 
         <div className={'display-flex flex-end'}>
           <span style={customLogo}>
-            BIENVENIDO
+            BIENVENIDO 
           </span>
 
         </div>
+
 
         <Card>
           <Card.Body className={'p-30'}>

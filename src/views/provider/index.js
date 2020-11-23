@@ -6,7 +6,7 @@ import { isBrowser } from "react-device-detect";
 
 const modulePadding =  isBrowser ? '' : '';
 
-const ProviderModule = (props) => {
+const ProviderModule = () => {
   const [showDetail, setShowDetail] = useState(true);
   const [action, setAction] = useState('');
   const [id, setId] = useState(0);
