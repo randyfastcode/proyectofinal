@@ -8,7 +8,7 @@ import PrivateRoute from './PrivateRouteWrapper';
 const Router = () => {
     return (
         <Switch>
-            <PrivateRoute path="/" exact component={ProviderModule} />
+            <Route path="/" exact component={ProviderModule} />
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />
         </Switch>
